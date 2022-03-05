@@ -57,7 +57,7 @@ if ($result->num_rows > 0) {
     $ccnumber = hex2bin($row['ccnumber']);
     $unencrypted_ccnumber = openssl_decrypt($ccnumber, $cipher, $key, OPENSSL_RAW_DATA, $iv);
     
-    $display_unencrypted_image = '<img src="data:image/jpeg;base64,'.base64_encode( $unencrypted_image ).'"/>';  
+    $display_unencrypted_image = '<img src="data:image/jpeg;base64,'.base64_encode( $unencrypted_image ). '"/>';  
       
     echo "<tr>
           <td>$id</td>
