@@ -19,6 +19,7 @@ body {
 
 /* Increase the font size of the heading */
 .header h1 {
+  text-align:center;
   font-size: 40px;
 }
 
@@ -52,22 +53,6 @@ h2 {
 .navbar a:hover {
   background-color: #ddd;
   color: black;
-}
-
-/* Column container */
-.row {  
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
-
-/* Main column */
-.main {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
 }
 
 /* Full-width input fields */

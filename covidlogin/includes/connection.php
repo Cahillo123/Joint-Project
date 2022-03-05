@@ -3,9 +3,8 @@
 $servername = "localhost";
 $dBUsername = "root";
 $dBPassword = "";
-$dBName = "project";
 
-$conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);
+$conn = mysqli_connect($servername, $dBUsername, $dBPassword);
 
 if (!$conn) {
 	die("Connection failed: ".mysqli_connect_error());

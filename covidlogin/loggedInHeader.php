@@ -14,7 +14,5 @@
 </div>
 
 <div class="navbar">
-  <a href="index.php">Home</a>
-  <a href="login.php" class="right">Login</a>
-  <a href="signup.php" class="right">Sign Up</a>
-  
+    <a href="home.php">Home</a>
+  <a href="logout.php" class="right">Log Out</a>

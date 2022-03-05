@@ -23,7 +23,7 @@ include_once 'header.php';
         <input type="text" name="dob" placeholder="Enter Date of Birth" required>
         
         <label for="phonenumber"><b>Phone Number</b></label>
-        <input type="text" pattern="[0-9()]{2,5}[-]{0,1}[0-9]{4}" name="phonenumber" placeholder="Enter Phone Number" required>
+        <input type="text" pattern="[0-9()]{2,5}[-]{0,1}[0-9]{5}" name="phonenumber" placeholder="Enter Phone Number" required>
         
         <label for="ccname"><b>Close Contact Name</b></label>
         <input type="text" name="ccname" placeholder="Enter Close Contact Name" required>
